@@ -1,0 +1,26 @@
+name: ${project.name}
+main: com.github.rlf.mytemplateplugin.MyTemplatePlugin
+version: ${project.version}
+description: Base Skabelon v${project.version}
+author: Mikey Mouse
+# POSTWORLD eller STARTUP
+load: POSTWORLD
+
+# Hårde afhængigheder (uden disse skal Bukkit ikke engang forsøge at starte pluginnet)
+depend: []
+# Bløde afhængigheder (uden disse kan vi godt starte op)
+softdepend: [Essentials]
+commands:
+    mycmd:
+        description: Den kommando der kalder vores plugin
+        aliases: [mc]
+        # <command> erstattes af den kommando der blev brugt (f.eks. /mc, hvis aliaset blev brugt)
+        usage:  |
+             /<command> help - viser hjælpe skærmen
+permissions:
+  mycmd.*:
+    children:
+      mycmd.admin.*:
+        children:
+          mycmd.admin.god:
+            description: Giver spilleren adgang til /mc god kommandoen
