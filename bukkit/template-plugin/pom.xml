@@ -4,7 +4,7 @@
     <groupId>com.github.rlf</groupId>
     <artifactId>basic-template-plugin</artifactId>
     <version>0.1-SNAPSHOT</version>
-    <name>My Template Plugin</name>
+    <name>MyTemplatePlugin</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,6 +17,7 @@
     </scm>
 
     <build>
+        <finalName>${project.name}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

@@ -26,7 +26,7 @@ public class MyTemplatePlugin extends JavaPlugin {
     @Override
     public void onDisable() {
         // Ryd op i eventuel tilstand
-
+        // Gem f.eks. ændringer i configuration med saveConfig().
         // Stop med at lytte på div. events
         HandlerList.unregisterAll(this);
     }
