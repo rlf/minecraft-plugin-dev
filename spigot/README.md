@@ -75,4 +75,5 @@ De følgende plugins er de mest basale i en hver Bukkit server (IMO).
 | Plugin | Beskrivelse |
 | ------ | ----------- |
 | [Essentials](https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/) | Div. `home` kommandoer, `chat`, `spawn`, `kits` mm. |
-| [PEX](https://ci.yawk.at/view/PermissionsEx/job/PermissionsEx/) | Et SuperPerms rettigheds plugin, der tillader at man tildeles ranks osv. |
+| [zPermissions](https://hub.spigotmc.org/jenkins/job/zPermissions/) | Et SuperPerms rettigheds plugin, der tillader at man tildeles ranks osv. |
+| [PlugMan](http://dev.bukkit.org/bukkit-plugins/plugman/) | Et simpelt men kraftfuldt plugin, der tillader at man loader/unloader plugins imens serveren kører. Dette gør det MEGET lettere at teste sit plugin, da man ikke behøver at genstarte serveren hver gang man har lavet ændringer. |
