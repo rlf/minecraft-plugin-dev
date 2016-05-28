@@ -35,7 +35,7 @@ F.eks. vil følgende bat-fil starte en spigot server med 4Gb hukkommelse.
 java -Xmx4G -jar spigot-1.9.4.jar
 ```
 
-Første gang serveren starter op, vil den stoppe igen med det samme, efter at have pakket nogle filer og filstrukturer ud.
+**Første gang** serveren starter op, vil den stoppe igen med det samme, efter at have pakket nogle filer og filstrukturer ud.
 
 Den vil skrive noget i retning af dette:
 ```
@@ -54,3 +54,13 @@ Denne fil skal redigeres (brug et hvilken som helst tekst-redigeringsprogram), o
 eula=true
 ```
 I filen, og starte serveren igen.
+
+I **anden omgang** vil serveren oprette endnu flere foldere, og bl.a. generere div. verdener.
+Når den er færdig med at starte, vil den stå i _konsollen_, hvor man så kan indtaste forskellige konsol-kommandoer til selve serveren.
+
+F.eks.
+```
+stop - stopper serveren igen
+op R4zorax - Vil give R4zorax OP status
+```
+og mange mange flere kommandoer (dem kommer vi til).
