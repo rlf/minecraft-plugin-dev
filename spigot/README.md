@@ -64,3 +64,15 @@ stop - stopper serveren igen
 op R4zorax - Vil give R4zorax OP status
 ```
 og mange mange flere kommandoer (dem kommer vi til).
+
+Men, TADA - du har nu en helt ren og nyoprettet Spigot-server kørende, der kan acceptere Bukkit plugins, hvis deres jar-filer kopieres til `/plugins` folderen.
+
+# Basale Plugins
+Der er en helt masse plugins, der ligesom bare skal være på en minecraft server for at gøre det sjovt.
+
+De følgende plugins er de mest basale i en hver Bukkit server (IMO).
+
+| Plugin | Beskrivelse |
+| ------ | ----------- |
+| [Essentials](https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/) | Div. `home` kommandoer, `chat`, `spawn`, `kits` mm. |
+| [PEX](https://ci.yawk.at/view/PermissionsEx/job/PermissionsEx/) | Et SuperPerms rettigheds plugin, der tillader at man tildeles ranks osv. |
