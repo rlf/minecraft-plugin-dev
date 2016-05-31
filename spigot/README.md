@@ -2,7 +2,7 @@
 
 Først skal man have fat I selve server-filen.
 Dette er en jar-fil, og tidligere kunne man bare downloade den.
-Desværre gjorde Wolvereness dette umuligt (se [Wolvereness Episoden](../../wiki/Wolvereness Episoden.md)).
+Desværre gjorde Wolvereness dette umuligt (se [Wolvereness Episoden](wiki/Wolvereness Episoden.md)).
 
 Derfor bliver man nødt til selv at bygge jar-filen.
 
